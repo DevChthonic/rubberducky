@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RubberDucky.gg - Quack through Problems with QUACK</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦆</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <span class="duck-emoji">🦆</span>
+            <h1>RubberDucky.gg</h1>
+        </div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#demo">Demo</a>
+            <a href="#about">About</a>
+            <a href="#try" class="cta-button">Try It Now</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Duck through Problems with QUACK-Powered Clarity</h2>
+        <p>RubberDucky.gg is your digital rubber duck for structured problem-solving. Break down coding bugs, projects, or study challenges using the QUACK framework, and diagram your solutions with an interactive canvas.</p>
+        <a href="#demo" class="cta-button">Try the Demo</a>
+        <div class="duck-animation" id="duckAnimation">🦆</div>
+    </section>
+
+    <section id="demo" class="demo">
+        <h2>Try the QUACK Framework</h2>
+        <p>Structure your thoughts and diagram solutions with RubberDucky! <span class="duck-emoji">🦆</span></p>
+        <div class="demo-container">
+            <div class="quack-form-container">
+                <form id="quackForm" class="quack-form">
+                    <div class="form-field">
+                        <label for="quandary">Quandary (What’s the problem?)</label>
+                        <textarea id="quandary" placeholder="E.g., My React app crashes on form submit..." required></textarea>
+                    </div>
+                    <div class="form-field">
+                        <label for="uncover">Uncover (What approaches to try?)</label>
+                        <textarea id="uncover" placeholder="E.g., Check console errors, debug form handler..." required></textarea>
+                    </div>
+                    <div class="form-field">
+                        <label for="actions">Actions (What steps to take?)</label>
+                        <textarea id="actions" placeholder="E.g., 1. Log errors to console, 2. Test form inputs..." required></textarea>
+                    </div>
+                    <div class="form-field">
+                        <label for="conclusions">Conclusions (What did you find?)</label>
+                        <textarea id="conclusions" placeholder="E.g., Found null error in the form handler..." required></textarea>
+                    </div>
+                    <div class="form-field">
+                        <label for="keytakeaway">Key Takeaway (What’s the main lesson?)</label>
+                        <textarea id="keytakeaway" placeholder="E.g., Always validate inputs to avoid crashes..." required></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="cta-button">Preview Quack</button>
+                        <button type="button" id="resetForm" class="reset-button">Reset</button>
+                    </div>
+                </form>
+                <div id="quackPreview" class="quack-preview">
+                    <h3>Your Quack</h3>
+                    <div id="previewContent">
+                        <p>Fill out the form to preview your quack.</p>
+                    </div>
+                    <div id="addQuackButton" class="add-quack-button" style="display: none;">
+                        <button class="cta-button">Add Quack</button>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas-container">
+                <div class="canvas-tools">
+                    <button id="drawTool" class="tool-button active">Draw</button>
+                    <button id="eraseTool" class="tool-button">Erase</button>
+                    <button id="clearCanvas" class="tool-button">Clear</button>
+                </div>
+                <canvas id="drawingCanvas" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section id="savedQuacks" class="saved-quacks">
+        <h2>Your Quacks</h2>
+        <p>Here are your saved quacks, ready to revisit! Click a quack to load it back into the form and canvas. 🦆</p>
+        <div id="quacksList" class="quacks-list"></div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Why RubberDucky?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>QUACK Framework</h3>
+                <p>Structure your thoughts with Quandary, Uncover, Actions, Conclusions, and Key Takeaway.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Diagram Solutions</h3>
+                <p>Sketch ideas, flowcharts, or architectures alongside your quacks.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Learn & Revisit</h3>
+                <p>Save and revisit your quacks with their drawings to retain key learnings.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About RubberDucky</h2>
+        <p>Inspired by rubber duck debugging, RubberDucky helps developers, students, and problem-solvers tackle challenges with clarity using the QUACK framework and an interactive drawing canvas. Log your thought process, sketch solutions, and grow smarter with every quack.</p>
+    </section>
+
+    <section id="try" class="cta">
+        <h2>Ready to Quack Some Problems?</h2>
+        <p>Join the flock and start solving with RubberDucky today!</p>
+        <a href="#" class="cta-button">Try RubberDucky</a>
+    </section>
+
+    <footer>
+        <p>© 2025 RubberDucky.gg. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">X</a>
+            <a href="#">GitHub</a>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
