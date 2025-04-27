@@ -64,4 +64,4 @@ This is an open-source project, and contributions are welcome! Please see the [C
 
 ## License
 
-Rubber Ducky is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Rubber Ducky is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
