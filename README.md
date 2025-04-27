@@ -4,7 +4,11 @@
 
 **Live Demo:**
 * [https://rubberducky-tau.vercel.app](https://rubberducky-tau.vercel.app)
+
+**Future URL:**
 * [https://rubberducky.gg](https://rubberducky.gg)
+
+The rubberducky.gg URL has been graciously provided by Channel Isles for our open source work. We are in the process of setting up hosting and would like to thank Angelika and Nigel for their help in securing the domain. Visit channelisles.net to secure your own .gg domain! Tell them Renaissance Gruppe sent you :)
 
 ---
 
